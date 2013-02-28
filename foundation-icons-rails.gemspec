@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Foundation::Icons::Rails::VERSION
 
-  gem.add_dependency "rails", "~> 3.0"
+  gem.add_dependency "rails", ">= 3.0"
   gem.add_dependency 'sass'
 end
